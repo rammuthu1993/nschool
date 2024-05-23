@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.icons{
+  float: right;
+  list-style-type: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icons li{
+  float:left;
+  margin-right: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: aliceblue;
+  width: 100%;
+}
+.navbar2{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+#gridone{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 20px;
+}
+#gridtwo{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 20px;
+}
+#mob{
+  padding: 30px;
+  border-radius: 100%;
+  background-color:white;
+  color: black;
+}
+#form{
+   display: grid;  
+  position: relative;
+  top: -100px;
+  z-index: 1;  
+}
+#contact{
+  position: relative;
+  left: 100px;
+  z-index: 2;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width:768px) {
+  #form{
+    top: 0px ;
   }
-  to {
-    transform: rotate(360deg);
+  #contact{
+    width: 500px !important;
+  }
+}
+
+@media (max-width:680px) {
+  #form{
+    top: 0px ;
+  }
+  #contact{
+    width: 400px !important;
+    left: 50px;
+  }
+}
+@media (max-width:480px) {
+  #form{
+    top: 0px ;
+  }
+  #contact{
+    width: 400px !important;
+    left: 50px;
   }
 }
