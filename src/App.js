@@ -11,8 +11,8 @@ function App() {
   <>
 {/* <Icons/>
 <Navbar/> */}
-   {/* <Main/>  */}
- <Contactus /> 
+  {/* <Main/>  */}
+<Contactus />
   </>
   );
 }

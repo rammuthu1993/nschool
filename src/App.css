@@ -77,4 +77,8 @@
     grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
     gap: 20px;
   }
+  #map{
+    position: relative;
+    left: 10px;
+  }
 }

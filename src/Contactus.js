@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Contactus() {
   return (
     
@@ -112,6 +113,17 @@ export default function Contactus() {
         </form>
     </div>
 </div>
+</div>
+
+
+</div>
+<div class='container-fluid' id='map'>
+<div class='container mt-5 pb-5'>
+    <h1>Our Location</h1>
+    <p>Kitkat Software Technologies is located in the heart of the city. So, You could reach us <br /> anytime and we make ourselves accessible always to serve you technically!
+
+</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.323119654818!2d76.97610157409065!3d11.014365654761743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8584d03d410a3%3A0x79e8132c3d3cdf88!2sKitkat%20Software%20Technologies!5e0!3m2!1sen!2sin!4v1716463138090!5m2!1sen!2sin" class='col-md-12' style={{height:'500px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 </div>
 </>
