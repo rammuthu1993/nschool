@@ -69,7 +69,12 @@
     top: 0px ;
   }
   #contact{
-    width: 400px !important;
-    left: 50px;
+    width: 300px !important;
+    left: 30px;
+  }
+  #gridone{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    gap: 20px;
   }
 }

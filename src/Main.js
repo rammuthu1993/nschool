@@ -45,7 +45,7 @@ export default function Main() {
   return (
     <>
   
-      <div class='container-fluid'>
+      <div class='container-fluid py-4 text-white' style={{backgroundColor:'rgb(6 182 212)'}}>
         <div class='row'>
         <div class="col-md-6 ps-4 pt-3">
             
@@ -66,7 +66,7 @@ export default function Main() {
       </div>
     
   <br />
-    <div class='container-fluid py-5' style={{backgroundColor:'pink'}}>
+    <div class='container-fluid py-5'>
         <h1 style={{color:'blue',textAlign:'center'}}>OUR CLIENTS</h1>
         <br />
     <div class='container' id='gridone' >
@@ -80,7 +80,7 @@ export default function Main() {
     </div>
     </div>
 <br />
-    <div class='container-fluid pb-5' >
+    <div class='container-fluid py-5 text-white' style={{backgroundColor:'rgb(2 132 199)'}} >
         <h3 style={{textAlign:'center'}}>Our Courses</h3>
         <p style={{textAlign:'center'}}>Learn new skills, pursue your interests or advance your career with our distinctive course catalogues. Our updated syllabus on the below courses cover all Industry standards as per requirements.</p>
         <br />

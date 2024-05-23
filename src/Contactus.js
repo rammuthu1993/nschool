@@ -4,7 +4,7 @@ export default function Contactus() {
   return (
     
     <>
-    <div class='container-fluid mt-3 pb-5' style={{backgroundColor:'pink'}}>
+    <div class='container-fluid mt-3 pb-5 text-white' style={{backgroundColor:'rgb(6 182 212)'}}>
 
         <div class='row'>
             <div class='col-md-6 ps-3'>
