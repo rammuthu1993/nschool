@@ -59,7 +59,7 @@ export default function Main() {
           <button class='px-5 py-1 border-0' style={{backgroundColor:'purple',color:'white',fontWeight:"bold"}}>Enquiry Now &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
         </div>
         
-        <div class="col-md-6">
+        <div class="col-md-6 p-3">
            <img class='img-fluid' src={require('./img/Group-4474-1.png')} alt="" />
         </div>
       </div>
