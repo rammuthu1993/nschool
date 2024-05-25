@@ -86,7 +86,7 @@ export default function Main() {
         <br />
         <div class='container' id='gridtwo'>
         {course.map((v)=>(
-            <div id='shadow' key={v.id} class='shadow-lg d-flex bg-white flex-column align-items-center pt-2'>
+            <div id='shadow' key={v.id} class='shadow-lg text-dark d-flex bg-white flex-column align-items-center pt-2'>
                 <img  src={require(`${v.img}`)} alt="" />
                 <p>{v.name}</p>
             </div>
